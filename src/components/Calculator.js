@@ -14,7 +14,6 @@ function Calculator() {
   const [isSubmit, setIsSubmit] = useState(false);
   const [result, setResult] = useState("0");
   let results = useRef([]);
-  console.log(result);
 
   const clearOperandHandler = () => {
     if (firstOperand && isFirstOperandCurrent)
